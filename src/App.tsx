@@ -2,7 +2,6 @@ import Layout from "./Layout";
 import LoginManager from "./components/Login/LoginManager";
 import { Navigate, Route, Routes } from "react-router-dom";
 import { ReactNode } from 'react';
-import DraggableCards from "./components/Draggable";
 
 const App = () => {
   const ProtectedRoute = ({ children }: { children: ReactNode }) => {
@@ -24,10 +23,7 @@ const App = () => {
         element={<LoginManager />}
         path="/login"
       />
-       <Route
-        element={<DraggableCards />}
-        path="/test"
-      />
+      
     </Routes>
   );
 };

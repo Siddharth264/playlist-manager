@@ -1,4 +1,3 @@
-// ValidationUtils.ts
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 type ValidationResult = {

@@ -1,13 +1,15 @@
 export type TypePlayList = {
-    id: number;
+    id: string;
     name: string;
     thumbnail: string;
     videoCount: number;
+    playListId: string;
 }
 
 export type TypeVideo = {
-    id: number;
+    id: string;
     title: string;
+    description: string;
     duration: string;
     productsCount: number;
     thumbnail: string;

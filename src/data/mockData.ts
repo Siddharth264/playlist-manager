@@ -3,7 +3,7 @@ export const mockPlaylists = [
     { id: 2, name: 'Product Playlists Name', thumbnail: '/assets/Thumbnails/Images/img2.jpeg', videoCount: 5 },
     { id: 3, name: 'Product Playlists Name', thumbnail: '/assets/Thumbnails/Images/img3.png', videoCount: 5 },
     { id: 4, name: 'Product Playlists Name', thumbnail: '/assets/Thumbnails/Images/img4.png', videoCount: 5 },
-    { id: 5, name: 'Product Playlists Name', thumbnail: '/assets/Thumbnails/Images/img4.png', videoCount: 5 },
+    { id: 5, name: 'Product Playlists Name', thumbnail: '/assets/Thumbnails/Images/img5.png', videoCount: 5 },
     { id: 6, name: 'Product Playlists Name', thumbnail: '/assets/Thumbnails/Images/img6.png', videoCount: 5 },
 
   ];
