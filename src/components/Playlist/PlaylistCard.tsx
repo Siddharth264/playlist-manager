@@ -86,7 +86,7 @@ export const PlaylistCard = ({ playlist, index, onClick, movePlaylist }: Playlis
       <div className="absolute inset-0 flex flex-col justify-between p-4">
         <div className="flex justify-between items-start">
           <span className="bg-blue-500 px-2 py-1 rounded-lg text-sm text-white">
-            {t('playlist.defaultName')}
+            {playlist.name || t('playlist.defaultName')}
           </span>
           <div className="p-1 rounded-full hover:bg-white/10 transition-colors">
             <MoreVertical size={20} className="text-white" />
