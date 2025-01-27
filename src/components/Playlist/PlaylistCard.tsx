@@ -28,7 +28,7 @@ export const PlaylistCard = ({ playlist, index, onClick, movePlaylist }: Playlis
     }),
   });
 
-  const [{ handlerId }, drop] = useDrop({
+  const [{ handlerId }, drop] = useDrop<DragItem, void, { handlerId: string | symbol | null }>({
     accept: 'PLAYLIST',
     collect(monitor) {
       return {

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { TypePlayList, TypeVideo } from '@/types/types';
 import { VideoItem } from './VideoItem';
 import { t } from '@/utils/translationUtil';
