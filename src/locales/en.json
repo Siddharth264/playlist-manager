@@ -1,0 +1,36 @@
+{
+    "appName": "bloosh",
+    "navigation": {
+      "revenue": "Revenue",
+      "shoppableVideo": "Shoppable Video",
+      "story": "Story",
+      "liveCommerce": "Live Commerce",
+      "playlistManager": "Playlist Manager",
+      "oneClickPost": "One Click Post",
+      "calendar": "Calendar",
+      "hireInfluencer": "Hire Influencer"
+    },
+    "buttons": {
+      "supportRequest": "Support Request",
+      "productTour": "Product Tour"
+    },
+    "search": {
+      "placeholder": "Search Project..."
+    },
+    "playlist": {
+      "title": "Product Playlists",
+      "videoCount": "{{count}} Videos",
+      "defaultName": "Product Playlists Name"
+    },
+    "videoPanel": {
+      "thumbnailTitle": "Thumbnail Title",
+      "thumbnailPlaceholder": "Get Sporty in Style",
+      "videoStatus": "Video status",
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "productList": "Product List",
+      "productsAttached": "Products Attached: {{count}}"
+    }
+  }
